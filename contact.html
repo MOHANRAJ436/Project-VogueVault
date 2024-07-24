@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VogueVault</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>
+            VogueVault
+        </h1>
+        <div class="navbar-links">
+            <P class="navbar-link"><a href="index.html">Home</a></P>
+            <P class="navbar-link"><a href="collection.html">Collection</a></P>
+            <P class="navbar-link"><a href="contact.html">Contact</a></P>
+        </div>
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <P class="side-navbar-link"><a href="index.html">Home</a></P>
+            <P class="side-navbar-link"><a href="collection.html">Collection</a></P>
+            <P class="side-navbar-link"><a href="contact.html">Contact</a></P>
+        </div>
+    </div>
+
+    <div class="contact">
+
+        <form class="contact-form">
+            <h3>Contact Us</h3>
+            <p>Name</p>
+            <input type="text" >
+            <p>Email</p>
+            <input type="text" >
+            <p>Message</p>
+            <input type="text" >
+            <button>Submit</button>
+
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingtext">
+                    VogueVault
+                </h2>
+                <p>
+                    VogueVault is a leading fashion brand dedicated to bringing the latest trends and timeless styles to
+                    fashion-forward individuals. Our collections blend contemporary designs with classic elegance,
+                    ensuring every piece makes a statement. We prioritize quality, sustainability, and customer
+                    satisfaction, offering a diverse range of clothing and accessories that cater to all tastes and
+                    occasions. Step into the world of VogueVault and elevate your wardrobe with pieces that are as unique as
+                    you.
+                </p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: white;"></i>
+                    <i class="fa-brands fa-x-twitter" style="color: white;"></i>
+                    <i class="fa-brands fa-facebook" style="color: white;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="collection.js"></script>
+</body>
+
+</html>
